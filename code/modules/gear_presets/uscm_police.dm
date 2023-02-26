@@ -212,7 +212,7 @@
 
 	service_over = list(/obj/item/clothing/suit/storage/jacket/marine/service/mp)
 
-/datum/equipment_preset/uscm_ship/uscm_police/mp/load_gear(mob/living/carbon/human/H)
+/datum/equipment_preset/uscm_ship/uscm_police/lawyer/load_gear(mob/living/carbon/human/H)
 	var/backItem = /obj/item/storage/backpack/satchel/sec
 	if (H.client && H.client.prefs && (H.client.prefs.backbag == 1))
 		backItem = /obj/item/storage/backpack/security
